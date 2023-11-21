@@ -10,7 +10,28 @@ public class Avion {
     private List<Asiento> claseTurista;
 
     //toString Constructor vacio y getters
-
+    public int asignarAsientoEjecutivo(Pasajero p, Ubicacion u){
+        //Recorrer la lista claseEjecutiva
+        //Dentro del bucle verificar uno libre  con la misma ubicacion
+        for(Asiento elemento : claseEjecutiva){
+            if(elemento.getPasajero()==null && elemento.getUbicacion()==u){
+                elemento.setPasajero(p);
+                return elemento.getNumero();
+            }
+        }
+        return 0;
+    }
+    public int asignarAsientoTurista(Pasajero p, Ubicacion u){
+        //Recorrer la lista claseEjecutiva
+        //Dentro del bucle verificar uno libre  con la misma ubicacion
+        for(Asiento elemento : claseTurista){
+            if(elemento.getPasajero()==null && elemento.getUbicacion()==u){
+                elemento.setPasajero(p);
+                return elemento.getNumero();
+            }
+        }
+        return 0;
+    }
 
     @Override
     public String toString() {
