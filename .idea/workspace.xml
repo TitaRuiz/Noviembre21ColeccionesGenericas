@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82df8b60-4c94-4d47-8fc9-8e253d6b57a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noviembre21ColeccionesGenericas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/ClasePasaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/Pasajero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/Ubicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarListGenerico.java" afterDir="false" />
+    <list default="true" id="82df8b60-4c94-4d47-8fc9-8e253d6b57a6" name="Changes" comment="Hasta pasajero">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarAvion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/corenetworks/modelo/Asiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/Asiento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,9 +49,22 @@
       <recent name="C:\Users\ggp20\Documents\Cursos2023\IFCD0609-CoreNetworks\Noviembre21ColeccionesGenericas\src\com\corenetworks\modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbarListGenerico">
+  <component name="RunManager" selected="Application.ProbarAvion">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Main" />
+      <module name="Noviembre21ColeccionesGenericas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarAvion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarAvion" />
       <module name="Noviembre21ColeccionesGenericas" />
       <extension name="coverage">
         <pattern>
@@ -87,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProbarAvion" />
         <item itemvalue="Application.ProbarListGenerico" />
         <item itemvalue="Application.Main" />
       </list>
@@ -101,6 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700576410043</updated>
     </task>
+    <task id="LOCAL-00001" summary="Hasta pasajero">
+      <option name="closed" value="true" />
+      <created>1700579709776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700579709776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hasta pasajero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hasta pasajero" />
   </component>
 </project>

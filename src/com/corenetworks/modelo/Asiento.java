@@ -15,7 +15,7 @@ public class Asiento {
                 ", numero=" + numero +
                 ", ubicacion=" + ubicacion +
                 ", pasajero=" + pasajero +
-                '}';
+                '}'+"\n";
     }
 
     @Override
@@ -43,6 +43,12 @@ public class Asiento {
 
     public ClasePasaje getClase() {
         return clase;
+    }
+
+    public Asiento(ClasePasaje clase, int numero, Ubicacion ubicacion) {
+        this.clase = clase;
+        this.numero = numero;
+        this.ubicacion = ubicacion;
     }
 
     public void setClase(ClasePasaje clase) {
